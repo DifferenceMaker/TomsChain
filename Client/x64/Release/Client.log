@@ -1,0 +1,378 @@
+﻿  MerklePatriciaTrie.cpp
+  ClientConn.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/Network/ClientConn.cpp')
+  
+  NetworkConn.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/Network/NetworkConn.cpp')
+  
+  ServerConn.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/Network/ServerConn.cpp')
+  
+  FileDialog.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'src/Utils/FileDialog.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  the template instantiation context (the oldest one first) is
+  	D:\C++ Projects\TomsChain\Client\Client\src\Utils\FileDialog.cpp(50,22):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		D:\C++ Projects\TomsChain\Client\Client\src\Utils\FileDialog.cpp(50,22):
+  		see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'file::FileDialog::openFile'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  RLP.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(63,35): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(63,35): warning C4267:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(63,35): warning C4267:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(63,35): warning C4267:             _Ty=uint8_t
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(63,35): warning C4267:         ]
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(68,35): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(68,35): warning C4267:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(68,35): warning C4267:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(68,35): warning C4267:             _Ty=uint8_t
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(68,35): warning C4267:         ]
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(87,31): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(87,31): warning C4267:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(87,31): warning C4267:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(87,31): warning C4267:             _Ty=uint8_t
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(87,31): warning C4267:         ]
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(100,35): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(100,35): warning C4267:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(100,35): warning C4267:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(100,35): warning C4267:             _Ty=uint8_t
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(100,35): warning C4267:         ]
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(105,35): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(105,35): warning C4267:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(105,35): warning C4267:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(105,35): warning C4267:             _Ty=uint8_t
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(105,35): warning C4267:         ]
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(121,31): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(121,31): warning C4267:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(121,31): warning C4267:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(121,31): warning C4267:             _Ty=uint8_t
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(121,31): warning C4267:         ]
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(126,31): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(126,31): warning C4267:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(126,31): warning C4267:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(126,31): warning C4267:             _Ty=uint8_t
+D:\C++ Projects\TomsChain\Client\Client\src\Utils\RLP.cpp(126,31): warning C4267:         ]
+  Wallet.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/Wallet.cpp')
+  
+D:\C++ Projects\TomsChain\Client\Client\src\Wallet.cpp(110,31): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Wallet.cpp(205,19): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Wallet.cpp(230,146): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Wallet.cpp(322,19): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Wallet.cpp(334,97): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Wallet.cpp(343,109): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Application.cpp
+  Defining YAML_CPP_API for DLL import
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
+  see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
+  see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<char,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
+  see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\exceptions.h(153,44): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+  see declaration of 'std::runtime_error'
+  D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\exceptions.h(153,20):
+  see declaration of 'YAML::Exception'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
+  see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set(51,7):
+  see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
+  see declaration of 'std::shared_ptr<YAML::detail::memory>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/Application.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\list(755,7):
+  see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/Application.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'src/Application.cpp')
+  D:\C++ Projects\TomsChain\Client\Dependencies\GLFW\include\GLFW\glfw3.h(123,1):
+  see previous definition of 'APIENTRY'
+  
+  Block.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/Block.cpp')
+  
+  ClientModule.cpp
+  Defining YAML_CPP_API for DLL import
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
+  see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
+  see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<char,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
+  see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\exceptions.h(153,44): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+  see declaration of 'std::runtime_error'
+  D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\exceptions.h(153,20):
+  see declaration of 'YAML::Exception'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
+  see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set(51,7):
+  see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
+  see declaration of 'std::shared_ptr<YAML::detail::memory>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\yaml\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\list(755,7):
+  see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+  
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/ClientModule.cpp')
+  
+D:\C++ Projects\TomsChain\Client\Client\src\ClientModule.cpp(431,62): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3434,56): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'src/ClientModule.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3434,56):
+  the template instantiation context (the oldest one first) is
+  	D:\C++ Projects\TomsChain\Client\Client\src\ClientModule.cpp(19,25):
+  	see reference to function template instantiation 'std::unique_ptr<VertexBuffer,std::default_delete<VertexBuffer>> std::make_unique<VertexBuffer,float(&)[20],unsigned __int64,0>(float (&)[20],unsigned __int64 &&)' being compiled
+  
+  DBConn.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/DBConn.cpp')
+  
+  IndexBuffer.cpp
+  Renderer.cpp
+  Shader.cpp
+  Texture.cpp
+  VertexArray.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Renderer\VertexArray.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C++ Projects\TomsChain\Client\Client\src\Renderer\VertexArray.cpp(27,3): warning C4312: 'type cast': conversion from 'unsigned int' to 'const void *' of greater size
+  VertexBuffer.cpp
+  Transaction.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/Transaction.cpp')
+  
+  glm.cpp
+  imgui.cpp
+  Compiling...
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  stb_image.cpp
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) const YAML::BadSubscript::`vftable'" (__imp_??_7BadSubscript@YAML@@6B@)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) class YAML::Node __cdecl YAML::LoadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?LoadFile@YAML@@YA?AVNode@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl YAML::InvalidNode::~InvalidNode(void)" (__imp_??1InvalidNode@YAML@@UEAA@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl YAML::RepresentationException::~RepresentationException(void)" (__imp_??1RepresentationException@YAML@@UEAA@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl YAML::BadConversion::~BadConversion(void)" (__imp_??1BadConversion@YAML@@UEAA@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl YAML::BadSubscript::~BadSubscript(void)" (__imp_??1BadSubscript@YAML@@UEAA@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: void __cdecl YAML::detail::node_data::convert_to_map(class std::shared_ptr<class YAML::detail::memory_holder> const &)" (__imp_?convert_to_map@node_data@detail@YAML@@AEAAXAEBV?$shared_ptr@Vmemory_holder@detail@YAML@@@std@@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: void __cdecl YAML::detail::node_data::insert_map_pair(class YAML::detail::node &,class YAML::detail::node &)" (__imp_?insert_map_pair@node_data@detail@YAML@@AEAAXAEAVnode@23@0@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl YAML::detail::node_data::mark_defined(void)" (__imp_?mark_defined@node_data@detail@YAML@@QEAAXXZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl YAML::detail::memory_holder::merge(class YAML::detail::memory_holder &)" (__imp_?merge@memory_holder@detail@YAML@@QEAAXAEAV123@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::BadSubscript::BadSubscript(class YAML::BadSubscript const &)" (__imp_??0BadSubscript@YAML@@QEAA@AEBV01@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::detail::memory_holder::~memory_holder(void)" (__imp_??1memory_holder@detail@YAML@@QEAA@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: void __cdecl YAML::Node::Assign(char const *)" (__imp_?Assign@Node@YAML@@AEAAXPEBD@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __cdecl YAML::Node::Scalar(void)const " (__imp_?Scalar@Node@YAML@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::BadConversion::BadConversion(class YAML::BadConversion const &)" (__imp_??0BadConversion@YAML@@QEAA@AEBV01@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum YAML::NodeType::value __cdecl YAML::Node::Type(void)const " (__imp_?Type@Node@YAML@@QEBA?AW4value@NodeType@2@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct YAML::Mark __cdecl YAML::Node::Mark(void)const " (__imp_?Mark@Node@YAML@@QEBA?AU02@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::Exception::Exception(class YAML::Exception const &)" (__imp_??0Exception@YAML@@QEAA@AEBV01@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::RepresentationException::RepresentationException(class YAML::RepresentationException const &)" (__imp_??0RepresentationException@YAML@@QEAA@AEBV01@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::InvalidNode::InvalidNode(class YAML::InvalidNode const &)" (__imp_??0InvalidNode@YAML@@QEAA@AEBV01@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: void __cdecl YAML::Node::EnsureNodeExists(void)const " (__imp_?EnsureNodeExists@Node@YAML@@AEBAXXZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::Node::~Node(void)" (__imp_??1Node@YAML@@QEAA@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: __cdecl YAML::Node::Node(class YAML::detail::node &,class std::shared_ptr<class YAML::detail::memory_holder>)" (__imp_??0Node@YAML@@AEAA@AEAVnode@detail@1@V?$shared_ptr@Vmemory_holder@detail@YAML@@@std@@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __cdecl YAML::detail::node_data::is_defined(void)const " (__imp_?is_defined@node_data@detail@YAML@@QEBA_NXZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class YAML::detail::node & __cdecl YAML::detail::memory_holder::create_node(void)" (__imp_?create_node@memory_holder@detail@YAML@@QEAAAEAVnode@23@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::detail::memory_holder::memory_holder(void)" (__imp_??0memory_holder@detail@YAML@@QEAA@XZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::Node::operator bool(void)const " (__imp_??BNode@YAML@@QEBA_NXZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __cdecl YAML::Node::IsScalar(void)const " (__imp_?IsScalar@Node@YAML@@QEBA_NXZ)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::BadConversion::BadConversion(struct YAML::Mark const &)" (__imp_??0BadConversion@YAML@@QEAA@AEBUMark@1@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::InvalidNode::InvalidNode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidNode@YAML@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ClientModule.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl YAML::RepresentationException::RepresentationException(struct YAML::Mark const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0RepresentationException@YAML@@QEAA@AEBUMark@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+D:\C++ Projects\TomsChain\Client\x64\Release\Client.exe : fatal error LNK1120: 31 unresolved externals

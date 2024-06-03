@@ -1,0 +1,9 @@
+﻿  DBConn.cpp
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         with
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         [
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:             _Rep=__int64
+D:\C++ Projects\TomsChain\Client\Client\src\Transaction.h(19,92): warning C4244:         ]
+  (compiling source file 'src/DBConn.cpp')
+  
+  Client.vcxproj -> D:\C++ Projects\TomsChain\Client\x64\Debug\Client.exe

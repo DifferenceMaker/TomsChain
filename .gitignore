@@ -1,0 +1,14 @@
+# Binaries
+x64/
+Client/x64
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+
+# Wallets (rather kept private)
+Client/wallets/

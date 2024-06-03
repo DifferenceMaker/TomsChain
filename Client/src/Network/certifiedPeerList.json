@@ -1,0 +1,14 @@
+[
+    {
+        "ip_address": "127.0.0.1",
+        "peer_type": 2,
+        "port": 6001,
+        "public_key": "ba2f29ea14dcbaad2e0dd70cefad229f6eda501e"
+    },
+    {
+        "ip_address": "192.168.1.11",
+        "peer_type": 0,
+        "port": 6001,
+        "public_key": "3eabbe9441b1f258f8b1ed9e4df4f904975f2ec3"
+    }
+]

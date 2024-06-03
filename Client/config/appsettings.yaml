@@ -1,0 +1,2 @@
+node:
+  type: "full"  # Options: light, semi, full
